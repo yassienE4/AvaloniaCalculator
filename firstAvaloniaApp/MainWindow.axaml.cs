@@ -85,8 +85,6 @@ public partial class MainWindow : Window
 
     private void OnEqualsClick(object sender, RoutedEventArgs e)
     {
-        Console.WriteLine(num1);
-        Console.WriteLine(num2);
         if (operatorSelected == 1)
         {
             float output = num1 + num2;

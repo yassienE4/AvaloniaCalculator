@@ -1431,11 +1431,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yassien/RiderProjects/firstAvaloniaApp/firstAvaloniaApp/firstAvaloniaApp.csproj",
+      "projectUniqueName": "/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/firstAvaloniaApp.csproj",
       "projectName": "firstAvaloniaApp",
-      "projectPath": "/Users/yassien/RiderProjects/firstAvaloniaApp/firstAvaloniaApp/firstAvaloniaApp.csproj",
+      "projectPath": "/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/firstAvaloniaApp.csproj",
       "packagesPath": "/Users/yassien/.nuget/packages/",
-      "outputPath": "/Users/yassien/RiderProjects/firstAvaloniaApp/firstAvaloniaApp/obj/",
+      "outputPath": "/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yassien/.nuget/NuGet/NuGet.Config"
