@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="225" d:DesignHeight="400"
+        x:Class="firstAvaloniaApp.MainWindow"
+        Title="firstAvaloniaApp">
+    
+    <StackPanel>
+        <Border Margin="5" CornerRadius="10" Background="Aqua">
+        <TextBlock Text="Calculator" FontSize="24" HorizontalAlignment="Center"/> </Border>
+        <Grid ShowGridLines="False" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Button Name="_7" Grid.Row="0" Grid.Column="0" Content="7" Click="OnNumberClick"/>
+            <Button Name="_8" Grid.Row="0" Grid.Column="1" Content="8" Click="OnNumberClick"/>
+            <Button Name="_9" Grid.Row="0" Grid.Column="2" Content="9" Click="OnNumberClick"/>
+            <Button Name="_4" Grid.Row="1" Grid.Column="0" Content="4" Click="OnNumberClick"/>
+            <Button Name="_5" Grid.Row="1" Grid.Column="1" Content="5" Click="OnNumberClick"/>
+            <Button Name="_6" Grid.Row="1" Grid.Column="2" Content="6" Click="OnNumberClick"/>
+            <Button Name="_1" Grid.Row="2" Grid.Column="0" Content="1" Click="OnNumberClick"/>
+            <Button Name="_2" Grid.Row="2" Grid.Column="1" Content="2" Click="OnNumberClick"/>
+            <Button Name="_3" Grid.Row="2" Grid.Column="2" Content="3" Click="OnNumberClick"/>
+            <Button Name="_0" Grid.Row="3" Grid.Column="1" Content="0" Click="OnNumberClick"/>
+            <Button Name="divide" Grid.Row="0" Grid.Column="3" Content="÷" Click="OnOperatorClick"/>
+            <Button Name="multiply" Grid.Row="1" Grid.Column="3" Content="x" Click="OnOperatorClick"/>
+            <Button Name="subtract" Grid.Row="2" Grid.Column="3" Content="-" Click="OnOperatorClick"/>
+            <Button Name="add" Grid.Row="3" Grid.Column="3" Content="+" Click="OnOperatorClick"/>
+            <Button Name="equals" Grid.Row="4" Grid.Column="3" Content="=" Click="OnEqualsClick"/>
+            <Button Name="clear" Grid.Row="5" Grid.Column="3" Content="AC" Click="OnClearClick"/>
+            <Label Name = "Input" Grid.Row="4" Grid.Column="0">Input</Label>
+            <Label Name = "Output" Grid.Row="5" Grid.Column="0">Output</Label>
+        </Grid>
+    </StackPanel>
+
+</Window>
+
