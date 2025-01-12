@@ -9,8 +9,8 @@ namespace firstAvaloniaApp;
 public partial class MainWindow : Window
 {
 
-    private int num1 = -1;
-    private int num2 = -1;
+    private float num1 = -1;
+    private float num2 = -1;
     private int operatorSelected = -1;
 
     public MainWindow()
