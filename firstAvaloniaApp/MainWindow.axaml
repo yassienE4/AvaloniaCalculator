@@ -7,36 +7,39 @@
         Title="firstAvaloniaApp"
         SizeToContent="WidthAndHeight"
         WindowStartupLocation="CenterScreen">
+
     
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        
         <Border Margin="5" CornerRadius="10" Background="Aqua">
-        <TextBlock Text="Calculator" FontSize="24" HorizontalAlignment="Center"/> </Border>
+            <TextBlock Text="Calculator" FontSize="24" HorizontalAlignment="Center"/> 
+        </Border>
+        
         <Grid Background="{DynamicResource Theme_BackgroundBrush}" Width="183">
-        <Button Content="7" Margin="16,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="8" Margin="56,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="9" Margin="96,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="÷" Margin="136,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
+            <Button Content="7" Margin="16,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+            <Button Content="8" Margin="56,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+            <Button Content="9" Margin="96,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+            <Button Content="÷" Margin="136,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
         
-        <Button Content="4" Margin="16,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="5" Margin="56,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="6" Margin="96,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="x" Margin="136,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
+            <Button Content="4" Margin="16,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+            <Button Content="5" Margin="56,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+            <Button Content="6" Margin="96,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+            <Button Content="x" Margin="136,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
         
-        <Button Content="1" Margin="16,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
-        <Button Content="2" Margin="56,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
-        <Button Content="3" Margin="96,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
-        <Button Content="-" Margin="136,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
+            <Button Content="1" Margin="16,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+            <Button Content="2" Margin="56,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+            <Button Content="3" Margin="96,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+            <Button Content="-" Margin="136,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
 
-        <Button Content="0" Margin="56,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
-        <Button Content="+" Margin="136,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
+            <Button Content="0" Margin="56,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+            <Button Content="+" Margin="136,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
 
-        <Button Content="=" Margin="136,208,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnEqualsClick" />
-        <Button Content="AC" Margin="136,248,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="OnClearClick"/>
-        <Label Name="Output" Margin="16,248,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="32" Content="Output"/>
-        <Label Name="Input" Margin="16,208,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="32" Content="Input" />
-
+            <Button Content="=" Margin="136,208,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnEqualsClick" />
+            <Button Content="AC" Margin="136,248,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="OnClearClick"/>
+            <Label Name="Output" Margin="16,248,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="32" Content="Output"/>
+            <Label Name="Input" Margin="16,208,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="32" Content="Input" />
         
-    </Grid>
+        </Grid>
     </StackPanel>
 
 </Window>
