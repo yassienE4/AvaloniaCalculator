@@ -1,0 +1,5 @@
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/win-x64/publish/firstAvaloniaApp.pdb
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/win-x64/publish/av_libglesv2.dll
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/win-x64/publish/libHarfBuzzSharp.dll
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/win-x64/publish/libSkiaSharp.dll
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/win-x64/publish/firstAvaloniaApp.exe

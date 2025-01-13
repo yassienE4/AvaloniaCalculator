@@ -9,44 +9,32 @@
     <StackPanel>
         <Border Margin="5" CornerRadius="10" Background="Aqua">
         <TextBlock Text="Calculator" FontSize="24" HorizontalAlignment="Center"/> </Border>
-        <Grid ShowGridLines="False" Margin="5">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-            </Grid.ColumnDefinitions>
+        <Grid Background="{DynamicResource Theme_BackgroundBrush}" Width="183">
+        <Button Content="7" Margin="16,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+        <Button Content="8" Margin="56,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+        <Button Content="9" Margin="96,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+        <Button Content="÷" Margin="136,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
+        
+        <Button Content="4" Margin="16,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+        <Button Content="5" Margin="56,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+        <Button Content="6" Margin="96,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
+        <Button Content="x" Margin="136,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
+        
+        <Button Content="1" Margin="16,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+        <Button Content="2" Margin="56,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+        <Button Content="3" Margin="96,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+        <Button Content="-" Margin="136,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
+        <Button Content="0" Margin="56,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
+        <Button Content="+" Margin="136,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
 
-            <Button Name="_7" Grid.Row="0" Grid.Column="0" Content="7" Click="OnNumberClick"/>
-            <Button Name="_8" Grid.Row="0" Grid.Column="1" Content="8" Click="OnNumberClick"/>
-            <Button Name="_9" Grid.Row="0" Grid.Column="2" Content="9" Click="OnNumberClick"/>
-            <Button Name="_4" Grid.Row="1" Grid.Column="0" Content="4" Click="OnNumberClick"/>
-            <Button Name="_5" Grid.Row="1" Grid.Column="1" Content="5" Click="OnNumberClick"/>
-            <Button Name="_6" Grid.Row="1" Grid.Column="2" Content="6" Click="OnNumberClick"/>
-            <Button Name="_1" Grid.Row="2" Grid.Column="0" Content="1" Click="OnNumberClick"/>
-            <Button Name="_2" Grid.Row="2" Grid.Column="1" Content="2" Click="OnNumberClick"/>
-            <Button Name="_3" Grid.Row="2" Grid.Column="2" Content="3" Click="OnNumberClick"/>
-            <Button Name="_0" Grid.Row="3" Grid.Column="1" Content="0" Click="OnNumberClick"/>
-            <Button Name="divide" Grid.Row="0" Grid.Column="3" Content="÷" Click="OnOperatorClick"/>
-            <Button Name="multiply" Grid.Row="1" Grid.Column="3" Content="x" Click="OnOperatorClick"/>
-            <Button Name="subtract" Grid.Row="2" Grid.Column="3" Content="-" Click="OnOperatorClick"/>
-            <Button Name="add" Grid.Row="3" Grid.Column="3" Content="+" Click="OnOperatorClick"/>
-            <Button Name="equals" Grid.Row="4" Grid.Column="3" Content="=" Click="OnEqualsClick"/>
-            <Button Name="clear" Grid.Row="5" Grid.Column="3" Content="AC" Click="OnClearClick"/>
-            <Label Name = "Input" Grid.Row="4" Grid.Column="0">Input</Label>
-            <Label Name = "Output" Grid.Row="5" Grid.Column="0">Output</Label>
-        </Grid>
+        <Button Content="=" Margin="136,208,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnEqualsClick" />
+        <Button Content="AC" Margin="136,248,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="OnClearClick"/>
+        <Label Name="Output" Margin="16,248,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="32" Content="Output"/>
+        <Label Name="Input" Margin="16,208,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="32" Content="Input" />
+
+        
+    </Grid>
     </StackPanel>
 
 </Window>

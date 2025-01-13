@@ -1,0 +1,5 @@
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/osx-arm64/publish/firstAvaloniaApp.pdb
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/osx-arm64/publish/libAvaloniaNative.dylib
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/osx-arm64/publish/libHarfBuzzSharp.dylib
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/osx-arm64/publish/libSkiaSharp.dylib
+/Users/yassien/RiderProjects/AvaloniaCalculator/firstAvaloniaApp/bin/Release/net9.0/osx-arm64/publish/firstAvaloniaApp
