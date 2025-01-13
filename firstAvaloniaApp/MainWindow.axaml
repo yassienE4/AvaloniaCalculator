@@ -4,9 +4,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="225" d:DesignHeight="400"
         x:Class="firstAvaloniaApp.MainWindow"
-        Title="firstAvaloniaApp">
+        Title="firstAvaloniaApp"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen">
     
-    <StackPanel>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
         <Border Margin="5" CornerRadius="10" Background="Aqua">
         <TextBlock Text="Calculator" FontSize="24" HorizontalAlignment="Center"/> </Border>
         <Grid Background="{DynamicResource Theme_BackgroundBrush}" Width="183">
@@ -18,12 +20,12 @@
         <Button Content="4" Margin="16,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
         <Button Content="5" Margin="56,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
         <Button Content="6" Margin="96,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick" />
-        <Button Content="x" Margin="136,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
+        <Button Content="x" Margin="136,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
         
         <Button Content="1" Margin="16,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
         <Button Content="2" Margin="56,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
         <Button Content="3" Margin="96,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
-        <Button Content="-" Margin="136,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
+        <Button Content="-" Margin="136,128,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick" />
 
         <Button Content="0" Margin="56,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnNumberClick"/>
         <Button Content="+" Margin="136,168,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="OnOperatorClick"/>
