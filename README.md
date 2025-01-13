@@ -1,3 +1,5 @@
 # AvaloniaCalculator
 Calculator App using C# and Avalonia
-<img width="338" alt="Screenshot 2025-01-12 at 2 23 34 PM" src="https://github.com/user-attachments/assets/32bd5e33-8152-4e80-921c-b8eb9bb5b146" />
+<img width="281" alt="Screenshot 2025-01-13 at 6 52 08 PM" src="https://github.com/user-attachments/assets/c80def6d-875d-4202-8a96-63c346292413" />
+UI designed with https://xaml.io
+
